@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta author="Vicky Soni" />
+        <meta description="#" />
+        <title>Age Calculator</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <div class="calulator-head">
+                <h2>Age Calculator</h2>
+            </div>
+            <form id="dob-form">
+                <div class="input-wrapper">
+                    <label for="date">Date</label>
+                    <input
+                        type="number"
+                        placeholder="dd"
+                        min="1"
+                        max="31"
+                        id="date"
+                        name="date"
+                    />
+                </div>
+                <div class="input-wrapper">
+                    <label for="month">Month</label>
+                    <input
+                        type="number"
+                        placeholder="mm"
+                        min="1"
+                        max="12"
+                        id="month"
+                    />
+                </div>
+                <div class="input-wrapper">
+                    <label for="year">Year</label>
+                    <input
+                        type="number"
+                        placeholder="Year"
+                        min="1000"
+                        max="9999"
+                        id="year"
+                    />
+                </div>
+                <button form="dob-form" type="submit" id="sub-btn" class="btn">
+                    Submit
+                </button>
+            </form>
+            <div id="result-wrapper"></div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
