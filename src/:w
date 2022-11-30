@@ -8,7 +8,7 @@
         <meta description="#" />
         <title>Age Calculator</title>
         <link rel="stylesheet" type="text/css" href="reset.css" />
-        <!--<link rel="stylesheet" type="text/css" href="styles.css" />-->
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <div class="main-wrapper">
