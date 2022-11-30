@@ -1,0 +1,87 @@
+:root {
+	--rad: 10px;
+}
+
+.main-wrapper {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #2b3a55;
+}
+
+.app-card {
+	background-color: #f2e5e5;
+	border-radius: var(--rad);
+	box-shadow: 2px 2px 1px 1px #ce7777;
+	width: 400px;
+}
+
+.calculator-head {
+	color: #2b3a55;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	font-size: 1.5em;
+	border-radius: var(--rad);
+}
+
+#dob-form {
+	display: flex;
+	gap: 10px;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#in-wrapper {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.input-wrapper {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	color: firebrick;
+}
+
+input {
+	margin: 5px 0 20px;
+	width: 80px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	color: #2b3a55;
+	text-indent: 10px;
+}
+
+#sub-btn {
+	margin-bottom: 20px;
+	height: 30px;
+	padding: 10px;
+	background-color: #2B3A55;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #E8C4C4;
+}
+
+#sub-btn:hover {
+	color: #2B3A55;
+	background-color:	firebrick;
+}
+
+#result-wrapper {
+	color: #434242;
+	text-align: center;
+	margin: 10px;
+}

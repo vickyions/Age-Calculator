@@ -8,14 +8,16 @@
         <meta description="#" />
         <title>Age Calculator</title>
         <link rel="stylesheet" type="text/css" href="reset.css" />
-        <!--<link rel="stylesheet" type="text/css" href="styles.css" />-->
+        <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
         <div class="main-wrapper">
-            <div class="calulator-head">
+            <div class="app-card">
+            <div class="calculator-head">
                 <h2>Age Calculator</h2>
             </div>
             <form id="dob-form">
+                <div class="in-wrapper">
                 <div class="input-wrapper">
                     <label for="date">Date</label>
                     <input
@@ -47,11 +49,13 @@
                         id="year"
                     />
                 </div>
+            </div>
                 <button form="dob-form" type="submit" id="sub-btn" class="btn">
                     Submit
                 </button>
             </form>
             <div id="result-wrapper"></div>
+            </div>
         </div>
         <script src="./index.js"></script>
     </body>
